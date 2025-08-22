@@ -1,0 +1,78 @@
+/* Container */
+.container {
+  width: 420px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Label */
+label {
+  display: block;
+  font-weight: 600;
+  margin-top: 12px;
+  color: #333;
+}
+
+/* Input, textarea, select */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+  font-size: 15px;
+}
+
+/* Focus effect */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.3);
+}
+
+/* Error input */
+.custom-input-error input,
+.custom-input-error textarea,
+.custom-input-error select {
+  border: 2px solid #e74c3c;
+  background-color: #fff6f6;
+}
+
+/* Error text */
+.error {
+  color: #e74c3c;
+  font-size: 13px;
+  margin: 3px 0 6px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 18px;
+  background: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #357abd;
+}
+
+button:active {
+  background: #2d6399;
+}
